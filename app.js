@@ -10,12 +10,12 @@ let a={
 
  // 3. Declare and initialize a strings array.
 var fruitsnames = ["apple", "banana", "mango", "pineapple",];
-document.write(fruitsnames[2]  + '\n')
+document.write(fruitsnames[2]  + "</br>")
 
 
  // 4. Declare and initialize a numbers array.
 var numbers = [1,2,3,4,5,6,7,8,9];
-document.write(numbers[5]  + '\n');
+document.write(numbers[5]  + "</br>");
 
  // 5. Declare and initialize a boolean array.
 var boolean = ["true", "false"];
@@ -23,11 +23,11 @@ document.write(boolean[1]  + '\n');
 
  // 6. Declare and initialize a mixed array.
 var mixedarray = ["1", "neon", "jacket", "$"];
-document.write(mixedarray[3]  + '\n')
+document.write(mixedarray[3]  + "</br>" )
 
  // Question no 7
  var degree = ["SSC", "HSC", "BCS",
-    "BS", "BCOM", " MS", "M.Phil", "PhD"];
+    "BS", "BCOM", " MS", "M.Phil", "PhD" + "</br>"];
  document.write(degree[0]);
  document.write(degree[1]);
  document.write(degree[2]);
@@ -35,7 +35,7 @@ document.write(mixedarray[3]  + '\n')
  document.write(degree[4]);
  document.write(degree[5]);
  document.write(degree[6]);
- document.write(degree[7]  + '\n');
+ document.write(degree[7]  + "</br>");
 
 // // //  Question no 8
 // // var 
@@ -58,16 +58,16 @@ document.write(scored  + '\n');
 let citiesNames=['Karachi','Lahore','Islamabad','Quetta','Peshawar'];
 let selectedCities=[];
 selectedCities=citiesNames.slice(2);
-document.write("Selected Cities:", selectedCities  + '\n');
+document.write("Selected Cities:", selectedCities  + "</br>");
 
 // Question no 12
 let arr=['this','is','my','cat'];
 let sentence=arr.join('",');
-document.write(sentence + '\n')
+document.write(sentence + "</br>");
 
 // Question no 13
 let gadgets=['keyboard','mouse','printer','monitor']
-document.write(gadgets + '\n')
+document.write(gadgets + "</br>");
 
 
 
@@ -78,5 +78,5 @@ document.write(gadgets + '\n')
  
 let devices=['keyboard','mouse','printer','monitor'];
 devices.reverse();
-document.write(devices)
+document.write(devices);
 
